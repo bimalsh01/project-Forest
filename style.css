@@ -13,7 +13,9 @@ body{
 
 #headsection{
     background-image: url(image/bg1.jpg);
+    background-size: cover;
     padding-bottom: 21vh;
+    width: 100%;
 }
 
 header{
@@ -289,4 +291,122 @@ header ul li a:hover{
     margin-top: 160px;
     margin-left: 25px;
     
+}
+
+#service{
+    background-image: url(/image/forest.jpg);
+    padding: 1px 50px;
+    background-size: cover;
+}
+
+.section-info{
+    display: flex;
+    align-items: center;
+}
+
+.s-left{
+    flex-basis: 50%;
+    text-align: end;
+    color: #fff;
+
+}
+.s-right{
+    flex-basis: 50%;
+    color: rgb(193, 252, 16);
+    padding: 30px;
+    font-size: 20px;
+}
+.s-right h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top:auto;
+    line-height: 50px;
+}
+
+.main-s{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+.box{
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
+    height: 30vh;
+    background-color: white;
+    
+}
+.content{
+    padding: 20px;
+    text-align: center;
+}
+.content h1{
+    color: green;
+}
+
+.para{
+    text-align: center;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px){
+
+    #headsection{
+        background-image: url(image/bg1.jpg);
+        background-size: cover;
+        padding-bottom: 21vh;
+        width:fit-content;
+
+    }
+    header ul li{
+        display: block;
+    }
+
 }
