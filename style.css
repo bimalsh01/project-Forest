@@ -405,6 +405,22 @@ header ul li a:hover{
     justify-content: space-around;
 }
 
+#savesection{
+    background-color: rgb(91, 207, 91);
+    
+}
+.save-main{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap
+    
+}
+.save-sh2,i{
+    color: #fff;
+}
+
 
 
 
