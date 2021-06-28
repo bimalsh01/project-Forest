@@ -1,12 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     
 }
+
 body{
+    
     min-width:fit-content;
     margin: 0;
+    
     line-height: 1.6;
     
 }
@@ -22,6 +28,7 @@ header{
     height: 70px;
     width: 100%;
     background-color: none;
+    
     
 }
 header h1{
@@ -377,9 +384,9 @@ header ul li a:hover{
 
 }
 .g-img{
-    width: 50%;
+    width: 100%;
     display: flex;
-    padding-left:18rem;
+    padding-left:19rem;
 }
 
 .g-left h3{
@@ -470,7 +477,101 @@ header ul li a:hover{
 #f-right-box-id{
     margin-left: 4rem;
 }
+
+/* Price Section */
+#price{
+    background-image: url(/image/forest.jpg);
+    padding: 50px 50px;
+    background-size: cover;
+}
+
+.price-s{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 200px 0px 200px;
+    /* margin: 10px; */
+    align-items: center;
+    
+}
+
+.price-section{
+    /* border: 1px solid red;` */
+    text-align: center;
+    height: 40vh;
+    margin: 20px;
+    padding: 20px 30px 40px 20px;
+    background:#fff;
+}
+
+.price-section button{
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    line-height: 5px;
+    font-family:monospace ;
+    font-size: 20px;
+    border-style:none;
+}
+
+.price-section h2{
+    color: yellowgreen;
+}
+.price-section p{
+    padding: 40px;
+}
+
+.price-section h1{
+    font-size: 30px;
+}
  
+.h1tag{
+    display: flex;
+    justify-content: center;
+}
+
+/* Client Detail */
+
+#client{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.client-d{
+    display: flex;
+    margin: 1rem 20rem 0rem 22rem;    
+}
+
+.client-detail{
+    margin: 10px 50px;
+}
+
+.client-detail img{
+    padding: 4px;
+    border: 1px solid rgb(104, 100, 100);
+    border-radius: 5px;
+}
+
+.client-detail h1{
+    color: yellowgreen;
+}
+
+.c-name{
+    padding: 5px;
+}
+
+#vdo{
+    background-color: yellowgreen;
+    padding: 60px;
+    text-align: center;
+}
+
+#vdo i:hover{
+    transition:all 1s;
+    cursor: pointer;
+    transform: rotate(360deg);
+    color:rgb(100, 105, 105);
+}
 
 
 
