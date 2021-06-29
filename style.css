@@ -319,7 +319,7 @@ header ul li a:hover{
 }
 .s-right{
     flex-basis: 50%;
-    color: rgb(193, 252, 16);
+    color: yellowgreen;
     padding: 30px;
     font-size: 20px;
 }
@@ -571,6 +571,24 @@ header ul li a:hover{
     cursor: pointer;
     transform: rotate(360deg);
     color:rgb(100, 105, 105);
+}
+
+.image-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.v-img-info img{
+    padding: 20px;
+}
+.v-img-info h2{
+    color: yellowgreen;
+}
+
+.v-icon a{
+    padding: 8px;
+    color: rgb(0, 0, 0);
 }
 
 
