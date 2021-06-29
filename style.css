@@ -591,6 +591,64 @@ header ul li a:hover{
     color: rgb(0, 0, 0);
 }
 
+#blog{
+    margin-top: 60px;
+    background: url(/image/blog.jpg);
+    color: #fff;
+}
+
+.b-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.b-left{
+    flex-basis: 50%;
+    text-align: right;
+}
+.b-right{
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.blog-section{
+    /* background-color: #fff; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    float: center;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.blog-content{
+    border: 1px solid red;
+    float: center;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding:20px;
+    height: 50vh;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    width: 20rem;
+    overflow: hidden;
+}
+
+.blog-content img{
+    width: 100%;
+}
+
+.blog-c-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
 
 
 
