@@ -395,7 +395,7 @@ header ul li a:hover{
 
 .g-right{
     flex-basis: 55%;
-    padding: 60px;    
+    padding: 40px;    
     
 }
 
@@ -626,7 +626,6 @@ header ul li a:hover{
 }
 
 .blog-content{
-    border: 1px solid red;
     float: center;
     background-color: #fff;
     margin-bottom: 50px;
@@ -648,6 +647,104 @@ header ul li a:hover{
     padding-top: 10px;
 }
 
+.contact-box{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.contact-left{
+    flex-basis: 50%;
+    text-align: right;
+    padding-top: 0px;
+    
+}
+
+.contact-right{
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#contact-c{
+    padding-top: 50px;
+
+}
+
+#contact-c input{
+    padding: 10px;
+    width: 30rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(228, 225, 225);
+    border-width: 0px 0px 2px 0px ;
+}
+
+#contact-c textarea, .btn11{
+    padding: 10px;
+    width: 30rem;
+    margin-top: 10px;
+    background-color: rgb(228, 225, 225);
+    border-width: 0px 0px 2px 0px ;
+    border-radius: 5px;
+}
+
+#contact-c .btn11{
+    border-radius: 20px;
+    background-color: yellowgreen;
+    color: white;
+    border-width:0ch;
+}
+
+#contact-c .btn11:hover{
+    background-color: black;
+}
+
+/* #contact-c input,textarea:focus{
+    border-color: aqua;
+    border-width: ;
+} */
+
+#contact-c input:focus{
+    border-color: rgb(128, 203, 233);
+    outline: none;
+    border-width: 3px;
+    transition: .2s;
+
+}
+
+
+
+#contact-c textarea:focus{
+    border-color: rgb(128, 203, 233);
+    outline: none;
+    border-width: 3px;
+    transition: .2s;
+}
+
+.contact-info{
+    margin: 1px;
+}
+
+.contact-h{
+    display: flex;
+    padding: 30px;
+    
+}
+
+.contact-h i{
+    padding-top: 20px;
+    
+}
+
+.contact-a{
+    padding-left: 70px;
+    line-height: 30px;
+}
+
+.contact-h h1{
+    color: yellowgreen;
+}
 
 
 
@@ -687,8 +784,7 @@ header ul li a:hover{
 
 
 
-
-
+/* 
 @media screen and (max-width:375px){
 
     #headsection{
@@ -702,4 +798,4 @@ header ul li a:hover{
         display: block;
     }
 
-}
+} */
